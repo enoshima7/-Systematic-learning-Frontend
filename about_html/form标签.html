@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- form一般是发POST请求 -->
+  <form action="index.html">
+    <input type="submit" value="提交">
+  </form>
+  <!-- 直接在路径加查询参数 -->
+  <form action="index.html?name=zzz" method="POST">
+    <input type="text" name="username">
+    <input type="text" name="password">
+    <input type="submit" value="提交">
+  </form>
+
+  <!-- form也有target -->
+  <form action="index.html?name=zzz" method="POST" target="_blank"> 
+    <input type="text" name="username">
+    <input type="text" name="password">
+    <input type="submit" value="提交">
+  </form>
+</body>
+</html>

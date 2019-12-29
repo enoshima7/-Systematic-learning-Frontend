@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- target属性 -->
+  <a href="http://qq.com" target="_blank">blank qq</a>
+  <a href="http://qq.com" target="_self">self qq</a>
+  <!-- 在父级页面打开 -->
+  <a href="http://qq.com" target="_parent">parent qq</a>
+  <!-- 祖宗页面 -->
+  <a href="http://qq.com" target="_top">top qq</a>
+
+  <!-- download属性 -->
+  <a href="http://qq.com" download>download qq</a>
+
+  <!-- href相关 -->
+  <a href="qq.com">qq</a>
+  <!-- 无协议// 根据当前页面的协议来 -->
+  <a href="//qq.com">qq</a>
+  <!-- 自动发起一个GET请求 -->
+  <!-- 只写#号不发出请求 -->
+  <a href="?name=frank">qq</a>
+  <!-- 伪协议 -->
+  <a href="javascript:alert(111);">伪协议1</a>
+  <!-- 想要用a标签但不想发起请求 -->
+  <a href="javascript:;">伪协议2</a>
+
+  <!-- 使用 npm i -g http-server -->
+  <!-- http-server -c-1 -->
+
+</body>
+</html>
