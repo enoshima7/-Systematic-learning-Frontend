@@ -1,2 +1,3 @@
-# Systematic-learning-Frontend-1
-我真正的真正的系统学习前端之路
+## 简历demo
+- 仅作为学习JS而做的
+- 以后再做一个好的
